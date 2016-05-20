@@ -3,11 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>  Базові теги  </title>
+        <style>
+   mark {
+    background: #ffec82;
+    padding: 1 3px;
+    border: 3px dashed #433;
+   }
+  </style>
     </head>
     <body style="background-image:url(images/fon.jpg)">
         <center><br><h1><p  style="color:#FF0000"><u><font size="10"   face="Arial"><b><em> Основні теги </em></b></font></u></p></h1></br></center>
         
-        <p align=left>
+        
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< !doctype >"</em></b></mark></font> -Директива </p></h3></br>
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< html >"</em></b></mark></font> -Тег HTML вказує початок і кінець HTML документа. </p></h3></br>
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< head >"</em></b></mark></font> -Тег HEAD (заголовок HTML-документа) містить інформацію, що сточується документа в
@@ -36,12 +43,27 @@
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< center >"</em></b></mark></font> -Центр вирівнює текст і зміст. </p></h3></br>
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< !doctype >"</em></b></mark></font> -Директива </p></h3></br>
         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< !doctype >"</em></b></mark></font> -Директива </p></h3></br>
-      
-        
-        
-        
-        
-        
+        <center><br><h1><p  style="color:#00ff00"><u><font size="10"   face="Arial"><b><em> Звук і Відео </em></b></font></u></p></h1></br></center>
+ 
+         <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#00ff00" face="Arial"><mark color="#00ff00"><b><em> "< audio >"</em></b></mark></font> -Додає, відтворює і управляє настройками аудіозаписи на веб-сторінці. </p></h3></br>
+        <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>" < source >"</em></b></mark></font> -Вставляє звуковий або відеофайл для тегів < audio »і« video ». </p></h3></br>
+        <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< bgsound >"</em></b></mark></font> -Визначає музичний файл, який буде програватися на веб-сторінці. </p></h3></br>
+        <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< track >"</em></b></mark></font> -Дозволяє авторам вказати текстову доріжку для медійних елементів. Така доріжка зазвичай містить субтитри на різних мовах, коментарі, заголовки і ін. </p></h3></br>
+        <br><h3><p style="color:#FFFAFA"> <font size="5"  color="#FFFF00" face="Arial"><mark><b><em>"< video >"</em></b></mark></font> -Додає, відтворює і управляє настройками відеоролика на веб-сторінці. </p></h3></br>
+        <center><p style="color:#FFFAFA"><font size="8"  color="#ffa500" face="Arial">Приклад Аудіо файлу</font></p>
+        <p style="color:#FFFAFA">Стандарт1</p>
+  <audio controls>
+    <source src="audio/music.ogg" type="audio/ogg; codecs=vorbis">
+    <source src="audio/music.mp3" type="audio/mpeg">
+    Тег audio не підтримується вашим браузером. 
+    <a href="audio/music.mp3">Скачайте музику</a>.
+  </audio></center>
+        <center><p style="color:#FFFAFA"><font size="8"  color="#ffa500" face="Arial">Приклад Відео файлу</font></p>
+        <video controls width="660" height="500" poster="video/due1.jpg" preload="none">
+  <source src="video/due1.mp4" type="video/mp4">
+  <source src="video/due1.webm" type="video/webm">
+  <source src="video/due1.ogv" type="video/ogg">
+</video>
+        </body>
     
-    </body>
 </html>
